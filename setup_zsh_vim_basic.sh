@@ -18,7 +18,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 
-sudo apt install python3-pip bashtop htop neofetch docker.io
+sudo apt install python3-pip bashtop htop neofetch docker.io vim-gtk3
 
 zsh
 
