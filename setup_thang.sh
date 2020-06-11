@@ -18,6 +18,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zdharma/fast-syntax-highlighting.git ~ZSH_CUSTOM/plugins/fast-syntax-highlighting
 
-sudo apt install python3-pip bashtop htop neofetch
+sudo apt install python3-pip bashtop htop neofetch docker.io
 
 zsh
