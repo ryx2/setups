@@ -15,6 +15,9 @@ echo "run :PlugInstall" in vim
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+
 sudo apt install python3-pip bashtop htop neofetch docker.io
 
 zsh
