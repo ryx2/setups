@@ -1,6 +1,6 @@
 cd
 sudo apt update
-sudo apt install zsh python3-pip bashtop htop neofetch vim-gtk3 npm fonts-powerline cmake
+sudo apt install zsh python3-dev python3-setuptools python3-pip bashtop htop neofetch vim-gtk3 npm fonts-powerline cmake
 
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
@@ -25,5 +25,5 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo npm i -g gitmoji-cli
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zdharma/fast-syntax-highlighting.git ~${ZSH_CUSTOM:$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zdharma/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
